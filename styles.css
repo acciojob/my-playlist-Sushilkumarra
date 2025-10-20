@@ -12,20 +12,20 @@ h1, h2 {
 
 ul {
   padding: 0;
-  margin: 6px ;
+  margin: 4px ;
   width: 300px;
 }
 
 li {
   list-style-type: none;
-  margin: 6px 0;
+  margin: 2px 0;
   
 }
 
 a {
   text-decoration-line: none;
   color: #000;
-  font-weight: bold;
+  
 }
 
 a:hover {
