@@ -11,34 +11,39 @@
 <body>
 
   <h1>My Playlist</h1>
-  <h2>Now Playing...</h2>
-  <h2>MP3 Songs</h2>
+ 
+	<div class="playlist">
 
-  <div class="playlist">
-    <ul>
+		 <ul>
       <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 1</a></li>
       <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 2</a></li>
       <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 3</a></li>
       <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 4</a></li>
       <li><a href="https://www.pagalworld.com.se/files/download/id/64630" target="_blank">Song 5</a></li>
     </ul>
+   
   </div>
 
+	 <h2>Now Playing...</h2>
+
+
   <div class="player_one">
-    <h2>Video Player</h2>
+   
     <video controls id="videoPlayer">
       <source src="https://www.w3schools.com/tags/movie.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-  </div>
 
-  <div class="player_two">
-    <h2>Audio Player</h2>
-    <audio controls id="audioPlayer">
+	  <h2>MP3 Songs</h2>
+	  <h5>Maan Meri Jaan</h5>
+	  <audio controls id="audioPlayer">
+		
       <source src="https://www.pagalworld.com.se/files/download/id/64630" type="audio/mpeg">
       Your browser does not support the audio element.
     </audio>
   </div>
+
+  
 
   <!-- Link JS -->
   <script src="script.js"></script>
