@@ -13,7 +13,7 @@ h1, h2 {
 ul {
   padding: 0;
   margin: 2px ;
-  width: 300px;
+  width: 350px;
 }
 
 li {
@@ -32,7 +32,20 @@ a:hover {
   color: #007BFF;
 }
 
-.player_one, .playlist {
+ .playlist {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 600px;
+  margin: 10px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+
+.player_one {
   background-color: rgb(255, 255, 255);
   padding: 10px;
   border: 1px solid black;
